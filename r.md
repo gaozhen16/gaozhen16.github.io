@@ -58,7 +58,6 @@ https://ieeexplore.ieee.org/document/8422352
 # 评奖
 
 wuminghui 2020全国人工智能大赛 无线通信赛道二等奖
-马西锁 2020年研究生国家奖学金、2020研究生学业特等奖学金
 
 kemalong
 IEEE ICC 2020 Student Travel Grant Award
