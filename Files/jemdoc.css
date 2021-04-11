@@ -960,3 +960,13 @@ p.pub_link {
     clip: rect(0, 0, 0, 0);
     pointer-events: none
 }
+
+.panel-body:after,
+.panel-body:before {
+    display: table;
+    content: " "
+}
+
+.panel-body:after {
+    clear: both
+}
