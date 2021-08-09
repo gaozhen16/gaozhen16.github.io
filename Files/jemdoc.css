@@ -821,7 +821,9 @@ p.pub_link {
 
 .panel-default>.panel-heading {
     color: #333;
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
+    /*background-color: #fff;*/
+    background-color: #66ccff80;
     border-color: #ddd
 }
 
