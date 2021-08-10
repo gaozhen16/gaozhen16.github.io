@@ -71,6 +71,7 @@
                 <h2><i class="fa fa-newspaper-o"></i>&nbsp;&nbsp;Latest News</h2>
             </A>
             <ul id="latestnews">
+                <details>
                 <li> <b>
                         <font color="#FF0000">[2021.07]</font>
                     </b> Dr. Gao was invited as the <b>Associate Editor</b> of IEEE Communications Letters (
@@ -118,7 +119,7 @@
                         <font>马西锁 论文被JSAC(<b>IF=11.42</b>)期刊录用</font>
                     </a>)【模型驱动深度学习的MIMO传输】
                 </li>
-
+                <summary>View More</summary>
                 <li> <b>
                         <font color="#FF0000">[2021.03]</font>
                     </b> Paper of Anwen Liao was accepted by <b>IEEE Journal on Selected Areas in Communications</b>(
@@ -134,6 +135,7 @@
                         <font>万子维 论文被TCOM(<b>IF=5.646</b>)期刊录用</font>
                     </a>)
                 </li>
+                </details>
 
                 <!--<li> <b>
                         <font color="#FF0000">[2020.12]</font>
@@ -146,14 +148,22 @@
 
             </ul>
             <br />
+            <!--
             <script type="text/javascript">
+                var a = $("<a></a>").on('click', showText).addClass('a-text').text("View More");
+                var b = $("<a></a>").on('click', showText).addClass('a-text').text("View Less");
                 var ul=document.getElementById("latestnews");
                 //var ularr=dv.getElementsByTagName("ul");
                 var liarr=ul.getElementsByTagName("li");
                 console.log(ul)
                 console.log(liarr)
+                var num = liarr.length
+                for(var i = 0; i < num;i++){  
+                    lis[i].οnclick=function(){  
+
+                    }
                 // var liarr=document.getElementById("getli").getElementsByTagName("li");
-            </script>
+            </script>-->
 
             <A NAME="Interest">
                 <h2><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Research Interest</h2>
