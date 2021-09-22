@@ -23,7 +23,7 @@ controls.update();
 var _config = {
     radius: R_earth,//半径
     //map: new THREE.TextureLoader().load('https://i.loli.net/2020/11/03/KcXdH9yCf43Y2GZ.jpg'),//加载需要的地球贴图 地球图为宽高 2:1的图 
-    map: new THREE.TextureLoader().load('./Files/x3.png'),
+    map: new THREE.TextureLoader().load('./Files/earth.jpg'),
     //[url=https://sm.ms/image/RXCha2zlgw4j39W][img]https://i.loli.net/2020/11/11/RXCha2zlgw4j39W.jpg[/img][/url]
     //https://i.loli.net/2020/11/11/bwRWgxdQvukV9mf.jpg
 }
