@@ -8,7 +8,7 @@ document.body.appendChild( renderer.domElement );
 const scene = new THREE.Scene();
 
 // Create Camera
-const camera = new THREE.PerspectiveCamera( 25, window.innerWidth / window.innerHeight, 0.1, 100.0 * R_earth );
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 100.0 * R_earth );
 camera.up.set(0,0,1);
 scene.add(camera);
 
