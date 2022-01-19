@@ -6020,5 +6020,16 @@ button.close {
     }
 }
 
+.warp .Mainright .books { width:830px; height:185px; background: url(./Files/books_bg.jpg) repeat; background-size:100% 100%; padding:8px 20px 0px; position:relative;}
+.warp .Mainright .books> a{position:absolute;right:20px;top:4px;color:#fff; text-transform:uppercase;font-size:12px;}
+.warp .Mainright .books h2{ color:#fff; font-size:14px; line-height:20px; font-weight:normal;}
+.warp .Mainright .books ul {padding-left:30px; height:148px; overflow:hidden;}
+.warp .Mainright .books ul li { width:105px;  text-align:center; float:left; margin:8px 55px 0px 0px; display:inline;}
+/***warp .Mainright .books ul li:nth-child(6){ margin-right:0px;}***/
+
+.warp .Mainright .books ul li img { width:90px; height:118px;}
+.warp .Mainright .books ul li p { width:100%; line-height:30px; text-align: center;  color:#FFF;}
+
+
 
 /*# sourceMappingURL=bootstrap.min.css.map */
