@@ -1,2 +1,0 @@
-# lifeRestart
-Game Life Restart
