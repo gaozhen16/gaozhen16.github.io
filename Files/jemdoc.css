@@ -826,6 +826,13 @@ p.pub_link {
     border-color: #ddd
 }
 
+.panel-default>.panel-heading2 {
+    color: #333;
+    /*background-color: #f5f5f5;*/
+    background-color: #ff0000d0;
+    border-color: #ddd
+}
+
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
     border-top-color: #ddd
 }
