@@ -492,7 +492,7 @@ img.proj_thumb {
 }
 
 table {
-    border: 2px solid black;
+    border: 0px solid black;
     border-collapse: collapse;
 }
 
@@ -501,7 +501,7 @@ td {
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-align: center;
-    border: 1px solid gray;
+    border: 0px solid gray;
 }
 
 table+table {
