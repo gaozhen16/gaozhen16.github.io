@@ -30,6 +30,31 @@
             margin-left: 10px; /* Space between text and image */
             margin-top: 4px;
         }
+        .profile-links {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .academic-links {
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .wechat-qrcode {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            font-size: 12px;
+            line-height: 1.4;
+            text-align: center;
+        }
+        .wechat-qrcode img {
+            display: block;
+            width: 86px;
+            height: 86px;
+        }
     </style>
 </head>
 
@@ -83,11 +108,19 @@
                                 <br /> Email: <a href=mailto:gaozhen16@bit.edu.cn>gaozhen16 at bit.edu.cn</a>
                                 <br />
                                 <br />
-                                [<a href="https://scholar.google.com/citations?user=4ylyExkAAAAJ" target="_blank">Google
-                                    Scholar</a>]
-                                [<a href="https://ieeexplore.ieee.org/author/37073332000" target="_blank">IEEE</a>]
-                                [<a href="https://github.com/gaozhen16" target="_blank">GitHub</a>]
-                                [<a href="https://orcid.org/0000-0002-2709-0216" target="_blank">ORCID</a>]
+                                <div class="profile-links">
+                                <span class="academic-links">
+                                <span>[<a href="https://scholar.google.com/citations?user=4ylyExkAAAAJ" target="_blank">Google
+                                    Scholar</a>]</span>
+                                <span>[<a href="https://ieeexplore.ieee.org/author/37073332000" target="_blank">IEEE</a>]</span>
+                                <span>[<a href="https://github.com/gaozhen16" target="_blank">GitHub</a>]</span>
+                                <span>[<a href="https://orcid.org/0000-0002-2709-0216" target="_blank">ORCID</a>]</span>
+                                </span>
+                                <a class="wechat-qrcode" href="./Files/bit6g-wireless-ai-wechat-qr.jpg" target="_blank" rel="noopener" title="点击查看高清二维码，微信扫码关注">
+                                    <img src="./Files/bit6g-wireless-ai-wechat-qr.jpg" alt="BIT6G Wireless-AI 公众号关注二维码" width="86" height="86" />
+                                    <span>BIT6G Wireless-AI</span>
+                                </a>
+                                </div>
                                 </div>
                     </td>
                 </tr>
